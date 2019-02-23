@@ -1,0 +1,25 @@
+.imagesContainer {
+  width: 950px;
+  height: auto;
+  margin: 30px auto;
+}
+
+#mainImage {
+  max-width: 100%;
+}
+
+#pageText {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1087px) {
+  .imagesContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button.is-large {
+    font-size: 1rem;
+  }
+}

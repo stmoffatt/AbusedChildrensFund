@@ -1,0 +1,92 @@
+.carouselImage {
+  height: calc(100vh - 95px);
+}
+
+.imageContainerLeft {
+  width: 95%;
+}
+
+.imageContainerRight {
+  width: 95%;
+  float: right;
+}
+
+.image {
+  max-width: 100%;
+}
+.carousel.carousel-slider {
+  margin-top: 95px;
+  margin-bottom: 70px;
+}
+
+.container {
+  border-top: 4px solid black;
+  margin-bottom: 30px;
+}
+
+.descriptionLeft {
+  width: 95%;
+}
+
+.descriptionRight {
+  width: 95%;
+  float: right;
+}
+
+.buttonContainer {
+  width: 50%;
+  margin: 95px auto 95px auto;
+}
+
+@media screen and (min-width: 1472px) {
+  .container {
+    width: 970px;
+    max-width: 970px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 970px;
+    max-width: 970px;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar-brand {
+    margin-top: 20px;
+  }
+  .carouselImage {
+    height: 100%;
+  }
+  .descriptionRight,
+  .imageContainerRight {
+    float: left;
+  }
+  #headerChange {
+    margin-left: 2.3%;
+  }
+  .descriptionLeft,
+  .imageContainerLeft {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .imageContainerLeft,
+  .descriptionLeft {
+    margin: 0 auto;
+    float: none;
+  }
+  .imageContainerRight,
+  .descriptionRight {
+    margin: 0 auto;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button.is-large {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+.aboutContainer {
+  width: 950px;
+  margin: 120px auto 0px auto;
+}
+
+.aboutText {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1087px) {
+  .aboutContainer {
+    width: 90%;
+  }
+}

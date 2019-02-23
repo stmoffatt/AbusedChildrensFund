@@ -1,0 +1,43 @@
+.trueStoriesImageContainer {
+  width: 240px;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+  margin-top: 15px;
+  padding-bottom: 3px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.trueStoriesText {
+  margin-bottom: 10px;
+}
+
+.trueStoriesContainer {
+  width: 950px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1087px) {
+  .trueStoriesContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .trueStoriesImageContainer {
+    float: none;
+    margin: 15px auto 0px auto;
+  }
+  .info {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button.is-large {
+    font-size: 1rem;
+  }
+}

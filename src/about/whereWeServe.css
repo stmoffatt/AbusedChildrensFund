@@ -1,0 +1,118 @@
+.whereWeServeContainer {
+  width: 950px;
+  margin: 120px auto 0px auto;
+}
+@media screen and (max-width: 1087px) {
+  .whereWeServeContainer {
+    width: 90%;
+  }
+}
+
+#philippinesImageContainer {
+  width: 100px;
+  height: 200px;
+  float: right;
+  margin-right: 30px;
+}
+
+#philippinesImage {
+  height: 200px;
+  width: auto;
+  float: right;
+}
+
+#mexicoImageContainer {
+  width: 150px;
+  height: auto;
+  float: right;
+  margin-right: 30px;
+}
+
+#mexicoImage {
+  height: 146px;
+  width: auto;
+  float: right;
+}
+
+#ugandaImageContainer {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-right: 30px;
+}
+
+#jamaicaImageContainer {
+  width: 200px;
+  height: 90px;
+  float: right;
+  margin-right: 30px;
+}
+
+#belizeImageContainer {
+  width: 100px;
+  height: 150px;
+  float: right;
+  margin-right: 30px;
+}
+
+#belizeImage {
+  height: 150px;
+  width: auto;
+}
+
+#southImageContainer {
+  width: 100px;
+  height: 92px;
+  float: right;
+  margin-right: 30px;
+}
+
+#unitedImageContainer {
+  width: 150px;
+  height: 100px;
+  float: right;
+  margin-right: 30px;
+}
+
+.container {
+  border-top: 4px solid black;
+  margin-bottom: 30px;
+}
+
+.descriptionLeft {
+  width: 95%;
+}
+
+.descriptionRight {
+  width: 95%;
+  float: right;
+}
+
+.buttonContainer {
+  width: 50%;
+  margin: 95px auto 95px auto;
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar-brand {
+    margin-top: 20px;
+  }
+
+  .descriptionRight {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .descriptionLeft,
+  .descriptionRight {
+    margin: 0 auto;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button.is-large {
+    font-size: 1rem;
+  }
+}
