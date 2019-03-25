@@ -13,7 +13,7 @@ const Haiti = () => {
       <div>
         <div className="imagesContainer">
           <div className="mobileContainer">
-            <img id="mainImage" src={HaitiImage} />
+            <img id="mainImage" src={HaitiImage} alt="Haiti" />
           </div>
           <h1 className="mobileTextSize">Still In Need Of Our Help</h1>
           <div id="pageText">
@@ -29,7 +29,7 @@ const Haiti = () => {
               mud.
             </p>
           </div>
-          <img className="floatLeft margin-right" id="mainImage" src={Haiti2Image} />
+          <img className="floatLeft margin-right" id="mainImage" src={Haiti2Image} alt="Haiti" />
           <div id="pageText">
             <p className="programText">
               Abused Children's Fund delivered around $500,00 worth of medical supplies, clothing, shoes and other

@@ -11,7 +11,7 @@ const Philippines = () => {
       <div>
         <div className="imagesContainer">
           <div className="philMobileContainer">
-            <img id="mainImage" src={PhilippinesImage} />
+            <img id="mainImage" src={PhilippinesImage} alt="Philippines" />
           </div>
           <h1 className="philMobileTextSize">Care For Abused Children</h1>
           <div id="pageText">

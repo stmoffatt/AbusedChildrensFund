@@ -11,7 +11,7 @@ const SexualTrafficing = () => {
       <div>
         <div className="imagesContainer">
           <div className="sexMobileContainer">
-            <img id="mainImage" src={SexualTrafficingImage} />
+            <img id="mainImage" src={SexualTrafficingImage} alt="Sexual Trafficing" />
           </div>
           <h1 className="sexMobileTextSize">Aid for Trafficked Children </h1>
           <div id="pageText">

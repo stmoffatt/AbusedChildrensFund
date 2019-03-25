@@ -11,7 +11,7 @@ const esmeraldaAndOmar = () => {
       <div className="trueStoriesContainer">
         <div className="trueStoriesImageContainer">
           <figure className="image is-square">
-            <img src={EsmeraldaImage} />
+            <img src={EsmeraldaImage} alt="Esmeralda And Omar" />
           </figure>
         </div>
         <div className="info">

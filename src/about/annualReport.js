@@ -6,8 +6,8 @@ const annualReport = () => {
   return (
     <div className="annualReportContainer">
       <div>
-        <h1>2014 - 2015 Annual Report</h1>
-        <h3>98% of total donations spent were allocated to life-saving programs</h3>
+        <h1 className="textAlign">2014 - 2015 Annual Report</h1>
+        <h3 className="textAlign">98% of total donations spent were allocated to life-saving programs</h3>
         <div className="circleBox">
           <svg id="programsCover" viewBox="0 0 32 32">
             <circle id="background" r="16" cx="16" cy="16" />

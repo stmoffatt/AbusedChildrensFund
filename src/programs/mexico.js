@@ -11,7 +11,7 @@ const Mexico = () => {
       <div>
         <div className="imagesContainer">
           <div className="ugaMobileContainer">
-            <img id="mainImage" src={MexicoImage} />
+            <img id="mainImage" src={MexicoImage} alt="Mexico" />
           </div>
           <h1 className="mexMobileTextSize">Orphan & School Programs</h1>
           <div id="pageText">

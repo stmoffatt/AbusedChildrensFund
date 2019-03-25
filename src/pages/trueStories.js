@@ -5,7 +5,7 @@ import './trueStories.css'
 class TrueStories extends Component {
   render() {
     return (
-      <div>
+     /*  <div>
         <div className="title">
           <h1 id="titleChange">True Stories</h1>
         </div>
@@ -106,7 +106,7 @@ class TrueStories extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </div> */
     )
   }
 }

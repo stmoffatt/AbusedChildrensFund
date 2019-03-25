@@ -4,8 +4,8 @@ import './programs.css'
 
 class Programs extends Component {
   render() {
-    return (
-      <div>
+    return {
+      /* <div>
         <div className="title">
           <h1 id="titleChange">Programs</h1>
         </div>
@@ -125,8 +125,8 @@ class Programs extends Component {
             </div>
           </div>
         </div>
-      </div>
-    )
+      </div> */
+    }
   }
 }
 

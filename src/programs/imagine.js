@@ -11,7 +11,7 @@ const Imagine = () => {
       <div>
         <div className="imagesContainer">
           <div className="ugaMobileContainer ">
-            <img id="mainImage" src={ImagineImage} />
+            <img id="mainImage" src={ImagineImage} alt="Imagine" />
           </div>
           <h1 className="imagineTextSize">What If</h1>
           <div id="pageText">

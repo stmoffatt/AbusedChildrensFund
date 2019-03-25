@@ -17,6 +17,7 @@ const WhereWeServe = () => {
                 <img
                   id="philippinesImage"
                   src="http://www.abusedchildrensfund.org/images/annual-report/philippines.png"
+                  alt="Philippines"
                 />
               </div>
               <p>
@@ -35,7 +36,11 @@ const WhereWeServe = () => {
             <div className="descriptionRight">
               <h1>Mexico</h1>
               <div id="mexicoImageContainer">
-                <img id="mexicoImage" src="http://www.abusedchildrensfund.org/images/annual-report/mexico.png" />
+                <img
+                  id="mexicoImage"
+                  src="http://www.abusedchildrensfund.org/images/annual-report/mexico.png"
+                  alt="Mexico"
+                />
               </div>
               <p>
                 “The work and help of Abused Children’s Fund has helped save and rescue the lives of many children here
@@ -52,7 +57,11 @@ const WhereWeServe = () => {
             <div className="descriptionLeft">
               <h1>United States</h1>
               <div id="unitedImageContainer">
-                <img id="unitedStatesImage" src="http://www.abusedchildrensfund.org/images/annual-report/usa.png" />
+                <img
+                  id="unitedStatesImage"
+                  src="http://www.abusedchildrensfund.org/images/annual-report/usa.png"
+                  alt="United States"
+                />
               </div>
               <p>
                 In the U.S. with your support, we succeeded with rescuing children from dangerous living situations here
@@ -66,7 +75,11 @@ const WhereWeServe = () => {
             <div className="descriptionRight">
               <h1>Jamaica</h1>
               <div id="jamaicaImageContainer">
-                <img id="jamaicaImage" src="http://www.abusedchildrensfund.org/images/annual-report/jamaica.png" />
+                <img
+                  id="jamaicaImage"
+                  src="http://www.abusedchildrensfund.org/images/annual-report/jamaica.png"
+                  alt="Jamaica"
+                />
               </div>
               <p>
                 In 2013 ACF began supporting the mission of several orphanages in Jamaica to reach out to abused
@@ -83,7 +96,11 @@ const WhereWeServe = () => {
             <div className="descriptionLeft">
               <h1>Belize</h1>
               <div id="belizeImageContainer">
-                <img id="belizeImage" src="http://www.abusedchildrensfund.org/images/annual-report/belize.png" />
+                <img
+                  id="belizeImage"
+                  src="http://www.abusedchildrensfund.org/images/annual-report/belize.png"
+                  alt="Belize"
+                />
               </div>
               <p>
                 ACF continues to support our partners in Belize who run a Christian academy for children in a rural
@@ -96,7 +113,11 @@ const WhereWeServe = () => {
             <div className="descriptionRight">
               <h1>Uganda</h1>
               <div id="ugandaImageContainer">
-                <img id="ugandaImage" src="http://www.abusedchildrensfund.org/images/annual-report/uganda.png" />
+                <img
+                  id="ugandaImage"
+                  src="http://www.abusedchildrensfund.org/images/annual-report/uganda.png"
+                  alt="Uganda"
+                />
               </div>
               <p>
                 With your priceless support we continued working with our partners to help rescue and feed children
@@ -111,7 +132,11 @@ const WhereWeServe = () => {
             <div className="descriptionLeft">
               <h1>South Africa</h1>
               <div id="southImageContainer">
-                <img id="southAfricaImage" src="http://www.abusedchildrensfund.org/images/annual-report/safrica.png" />
+                <img
+                  id="southAfricaImage"
+                  src="http://www.abusedchildrensfund.org/images/annual-report/safrica.png"
+                  alt="South Africa"
+                />
               </div>
               <p>
                 We’ve continued to help abused and vulnerable children living in dangerous “townships” receive therapy,

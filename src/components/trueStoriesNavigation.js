@@ -54,7 +54,6 @@ class trueStoriesNavigation extends Component {
 
   render() {
     const dropdownClass = this.state.clicked ? 'dropdown is-active' : 'dropdown'
-    console.log(this.state)
     return (
       <div className="programsNavBarContainer">
         <div className="navContainer">

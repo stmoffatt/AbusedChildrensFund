@@ -11,7 +11,7 @@ const Uganda = () => {
       <div>
         <div className="imagesContainer">
           <div className="ugaMobileContainer">
-            <img id="mainImage" src={UgandaImage} />
+            <img id="mainImage" src={UgandaImage} alt="Uganda" />
           </div>
           <h1 className="ugaTextSize">Street Children Ministry</h1>
           <div id="pageText">
