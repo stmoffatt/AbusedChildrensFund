@@ -15,7 +15,7 @@ const jocelin = () => {
           </figure>
         </div>
         <div className="info">
-          <h1>Jocelin</h1>
+          <h1 className="textAlign">Jocelin</h1>
           <p className="trueStoriesText">
             Jocelin is only 6 years old but has experienced more terror than most of us experience in our lifetime. When
             she was only 4 years old a farmer found her wandering in the remote hills of Juarez. She was naked, dirty,

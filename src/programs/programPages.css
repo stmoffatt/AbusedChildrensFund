@@ -52,6 +52,10 @@
   float: right;
 }
 
+.container.margin {
+  margin-top: 150px;
+}
+
 @media screen and (max-width: 1087px) {
   .imagesContainer {
     width: 90%;
@@ -67,6 +71,9 @@
   .mexMobileTextSize {
     font-size: 2em;
   }
+  .container.margin {
+    margin-top: 80px;
+  }
 }
 @media screen and (max-width: 912px) {
   .mexMobileTextSize {
@@ -78,6 +85,12 @@
   .mexMobileTextSize {
     font-size: 1.6em;
   }
+  .sexMobileTextSize {
+    font-size: 1.7em;
+  }
+  .container.margin {
+    margin-top: 0px;
+  }
 }
 @media screen and (max-width: 820px) {
   .mexMobileTextSize {
@@ -86,7 +99,13 @@
 }
 @media screen and (max-width: 803px) {
   .philMobileTextSize {
-    font-size: 2.2em;
+    font-size: 1.4em;
+  }
+  .mobileTextSize {
+    font-size: 1.8em;
+  }
+  .ugaTextSize {
+    font-size: 1.5em;
   }
 }
 
@@ -116,7 +135,8 @@
   .mobileTextSize,
   .sexMobileTextSize,
   .philMobileTextSize,
-  .ugaTextSize {
+  .ugaTextSize,
+  .imagineTextSize {
     text-align: center;
   }
 
@@ -137,6 +157,23 @@
   #bottomMargin {
     margin-bottom: 10px;
   }
+  .sexMobileTextSize {
+    font-size: 2.5em;
+  }
+  .mobileTextSize {
+    font-size: 2.5em;
+  }
+  .philMobileTextSize {
+    font-size: 2.2em;
+  }
+  .ugaTextSize {
+    font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 560px) {
+  .sexMobileTextSize {
+    font-size: 1.9em;
+  }
 }
 @media screen and (max-width: 518px) {
   .mobileTextSize {
@@ -145,12 +182,12 @@
 }
 @media screen and (max-width: 513px) {
   .ugaTextSize {
-    font-size: 1.9em;
+    font-size: 2em;
   }
 }
 @media screen and (max-width: 500px) {
   .mobileTextSize {
-    font-size: 1.9em;
+    font-size: 2em;
   }
   .philMobileContainer {
     width: 90%;
@@ -159,26 +196,72 @@
     width: 90%;
   }
   .philMobileTextSize {
-    font-size: 1.8em;
+    font-size: 1.9em;
   }
   .mexMobileTextSize {
     font-size: 1.7em;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .sexMobileTextSize {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .philMobileTextSize {
+    font-size: 1.8em;
+  }
+  .sexMobileTextSize {
+    font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 412px) {
+  .mobileTextSize {
+    font-size: 1.9em;
+  }
+}
 @media screen and (max-width: 400px) {
   .mobileTextSize {
+    font-size: 1.8em;
+  }
+  .philMobileTextSize {
     font-size: 1.7em;
+  }
+  .ugaTextSize {
+    font-size: 1.8em;
+  }
+  .mexMobileTextSize {
+    font-size: 1.6em;
+  }
+  .sexMobileContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .sexMobileTextSize {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .mobileTextSize {
+    font-size: 1.6em;
   }
   .philMobileTextSize {
     font-size: 1.6em;
   }
   .ugaTextSize {
-    font-size: 1.7em;
+    font-size: 1.6em;
   }
   .mexMobileTextSize {
     font-size: 1.5em;
   }
-  .sexMobileContainer {
+}
+
+@media screen and (max-width: 360px) {
+  .mobileContainer {
     width: 90%;
   }
 }
@@ -197,8 +280,11 @@
   }
 }
 
-@media screen and (max-width: 360px) {
-  .mobileContainer {
-    width: 90%;
+@media screen and (max-width: 321px) {
+  .mobileTextSize {
+    font-size: 1.5em;
+  }
+  .sexMobileTextSize {
+    font-size: 1.4em;
   }
 }

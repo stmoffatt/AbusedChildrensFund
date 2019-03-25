@@ -15,7 +15,7 @@ const rolando = () => {
           </figure>
         </div>
         <div className="info">
-          <h1>Rolando</h1>
+          <h1 className="textAlign">Rolando</h1>
           <p className="trueStoriesText">
             Rolando and his two brothers came to Emmanuel Children's Home when they were 5, 6 and 7 years old. Their
             father was left alone to care for his three sons after their mother left them. The boys' father was forced

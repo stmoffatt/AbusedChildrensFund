@@ -13,7 +13,7 @@ const Imagine = () => {
           <div className="ugaMobileContainer ">
             <img id="mainImage" src={ImagineImage} />
           </div>
-          <h1>Imagine</h1>
+          <h1 className="imagineTextSize">What If</h1>
           <div id="pageText">
             <p className="programText">
               Imagine that one day, in great desperation and need, your parents decided to sell you or a sibling in
@@ -35,7 +35,7 @@ const Imagine = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container margin">
         <div className="buttonContainer">
           <a
             href="https://www.givedirect.org/donate/?cid=11851"

@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <div className="aboutContainer">
-        <h1> About Us</h1>
+        <h1 className="textAlign"> About Us</h1>
         <div>
           <p className="aboutText">
             Abused Children’s Fund in a Family with one mission and goal, to help children around the world who are

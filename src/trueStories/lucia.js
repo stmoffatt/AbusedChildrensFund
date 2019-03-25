@@ -15,7 +15,7 @@ const lucia = () => {
           </figure>
         </div>
         <div className="info">
-          <h1>Lucia</h1>
+          <h1 className="textAlign">Lucia</h1>
           <p className="trueStoriesText">
             Lucia was born in southern Mexico and came to the city of Juarez when she was 8 years old. Her mother died
             when she was 10 and she and her 8 siblings were left in the care of her father. She is child number 7, and

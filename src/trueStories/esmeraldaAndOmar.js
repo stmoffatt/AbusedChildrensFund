@@ -15,7 +15,9 @@ const esmeraldaAndOmar = () => {
           </figure>
         </div>
         <div className="info">
-          <h1>Esmeralda And Omar</h1>
+          <h1 id="esomHeader" className="textAlign">
+            Esmeralda And Omar
+          </h1>
           <p className="trueStoriesText">
             When you think of the fantasy play of a four-year-old girl, you usually think of playing house or princess.
             When Esmeralda came to Emmanuel Children's Home, her fantasy world was full of adult sexual encounters and

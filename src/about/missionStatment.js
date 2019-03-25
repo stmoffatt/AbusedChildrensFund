@@ -5,7 +5,9 @@ import './missionStatment.css'
 const MissionStatment = () => {
   return (
     <div className="aboutContainer">
-      <h1 id="missionStatementMobile">Mission Statement</h1>
+      <h1 className="textAlign" id="missionStatementMobile">
+        Mission Statement
+      </h1>
       <div>
         <p className="aboutText">
           As Christians we have come together to follow Christ's teaching of helping the most vulnerable children around

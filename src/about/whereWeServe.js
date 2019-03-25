@@ -5,7 +5,7 @@ import './whereWeServe.css'
 const WhereWeServe = () => {
   return (
     <div className="whereWeServeContainer">
-      <h1 id="headerChange" className="whereWeServeMobileSize">
+      <h1 id="headerChange" className="whereWeServeMobileSize textAlign">
         Where We Serve
       </h1>
       <div className="content">
