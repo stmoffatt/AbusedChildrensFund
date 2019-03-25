@@ -20,7 +20,7 @@ class Header extends Component {
     return (
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <Link className="navbar-item navPrimary" to="/">
+          <Link onClick={handleItemsClick} className="navbar-item navPrimary" to="/">
             Abused Children's Fund
           </Link>
           <div
@@ -123,14 +123,16 @@ class Header extends Component {
                 </a>
               </div> */}
             </div>
-            <a
-              href="https://www.givedirect.org/donate/?cid=11851"
-              target="_blank"
-              onClick={handleItemsClick}
-              className="navbar-item navSecondary"
-            >
-              Donate
-            </a>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a
+                href="https://www.givedirect.org/donate/?cid=11851"
+                target="_blank"
+                onClick={handleItemsClick}
+                className="navbar-item navSecondary"
+              >
+                Donate
+              </a>
+            </div>
           </div>
         </div>
       </nav>
