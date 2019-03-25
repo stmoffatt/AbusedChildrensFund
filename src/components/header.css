@@ -21,6 +21,10 @@
   color: black;
 }
 
+.navbar-menu.is-active .navbar-end {
+  padding-bottom: 50px;
+}
+
 @media screen and (max-width: 1087px) {
   .navPrimary {
     font-size: 26px;
