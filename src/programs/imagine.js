@@ -10,7 +10,9 @@ const Imagine = () => {
       <ProgramsNavigation />
       <div>
         <div className="imagesContainer">
-          <img className="floatRight" id="mainImage" src={ImagineImage} />
+          <div className="ugaMobileContainer ">
+            <img id="mainImage" src={ImagineImage} />
+          </div>
           <h1>Imagine</h1>
           <div id="pageText">
             <p className="programText">

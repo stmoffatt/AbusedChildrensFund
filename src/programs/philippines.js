@@ -10,8 +10,10 @@ const Philippines = () => {
       <ProgramsNavigation />
       <div>
         <div className="imagesContainer">
-          <img className="floatRight" id="mainImage" src={PhilippinesImage} />
-          <h1>Care For Abused Children</h1>
+          <div className="philMobileContainer">
+            <img id="mainImage" src={PhilippinesImage} />
+          </div>
+          <h1 className="philMobileTextSize">Care For Abused Children</h1>
           <div id="pageText">
             <p className="programText">
               This child protection project has established a model child welfare and protection system for Filipino
@@ -29,7 +31,7 @@ const Philippines = () => {
             <p className="programText">
               Without the Donors of Abused Children’s Fund many Filipino children who have been taken care of, fed,
               housed, rescued and shown the mercy of God’s love might be otherwise still out on the merciless streets in
-              Manila or worse, enslaved. Thanks to Donors like YOU, these children now have hope for a bright life and
+              Manila or worse, enslaved. Thanks to Donors like you, these children now have hope for a bright life and
               exciting future!
             </p>
           </div>

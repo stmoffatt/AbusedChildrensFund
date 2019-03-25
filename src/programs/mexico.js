@@ -10,8 +10,10 @@ const Mexico = () => {
       <ProgramsNavigation />
       <div>
         <div className="imagesContainer">
-          <img className="floatRight" id="mainImage" src={MexicoImage} />
-          <h1>Orphan & School Programs</h1>
+          <div className="ugaMobileContainer">
+            <img id="mainImage" src={MexicoImage} />
+          </div>
+          <h1 className="mexMobileTextSize">Orphan & School Programs</h1>
           <div id="pageText">
             <p className="programText">
               Hundreds of abandoned children wander the streets of Mexico alone, not knowing where their next bite of
@@ -35,7 +37,7 @@ const Mexico = () => {
               development. The children can mature physically as well as spiritually. In addition to this and education,
               the children receive medical care at their medical and dental clinic.{' '}
             </p>
-            <p className="programText">
+            <p id="bottomMargin" className="programText">
               The people at Hogar de Ninos focus each day to give the children a sense of destiny, a sense of future.
             </p>
           </div>

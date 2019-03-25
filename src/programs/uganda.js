@@ -10,8 +10,10 @@ const Uganda = () => {
       <ProgramsNavigation />
       <div>
         <div className="imagesContainer">
-          <img className="floatRight" id="mainImage" src={UgandaImage} />
-          <h1>Street Children Ministry</h1>
+          <div className="ugaMobileContainer">
+            <img id="mainImage" src={UgandaImage} />
+          </div>
+          <h1 className="ugaTextSize">Street Children Ministry</h1>
           <div id="pageText">
             <p className="programText">
               With God's Love, ACF focuses on helping children who are on the streets because of hardships and lack of a
@@ -24,7 +26,7 @@ const Uganda = () => {
               on providing a better way of living, a sense of direction with values and disposition of loving God and
               neighbors.
             </p>
-            <p className="programText">
+            <p id="bottomMargin" className="programText">
               Homes are created where compassionate adults live with the children and share their day-to-day experiences
               with them, serving as a role model. The children are taught in a classroom setting by their mentor and
               they see their mentor embody these principles in home life and through community service projects.

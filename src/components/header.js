@@ -100,11 +100,11 @@ class Header extends Component {
               </div>
             </div>
             <div className="navbar-item has-dropdown is-hoverable">
-              <a onClick={handleItemsClick} className="navbar-item navSecondary">
+              <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/Support">
                 Support
-              </a>
-              <div className="navbar-dropdown is-boxed">
-                <a
+              </Link>
+              {/* <div className="navbar-dropdown is-boxed">
+                 <a
                   onClick={handleItemsClick}
                   href="https://www.givedirect.org/donate/?cid=11851"
                   target="_blank"
@@ -112,16 +112,16 @@ class Header extends Component {
                 >
                   Donate
                 </a>
-                <a onClick={handleItemsClick} className="navbar-item navSecondary">
+                 <a onClick={handleItemsClick} className="navbar-item navSecondary">
                   Fundraising
                 </a>
                 <a onClick={handleItemsClick} className="navbar-item navSecondary">
                   Workplace Giving
                 </a>
-                <a onClick={handleItemsClick} className="navbar-item navSecondary">
+                 <a onClick={handleItemsClick} className="navbar-item navSecondary">
                   Contact
                 </a>
-              </div>
+              </div> */}
             </div>
             <a
               href="https://www.givedirect.org/donate/?cid=11851"

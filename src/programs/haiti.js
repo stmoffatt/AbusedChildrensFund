@@ -4,6 +4,7 @@ import 'bulma/css/bulma.css'
 import './programPages.css'
 import HaitiImage from '../images/Haiti1.jpg'
 import Haiti2Image from '../images/haiti2.jpg'
+import f from '../images/donationform.pdf'
 
 const Haiti = () => {
   return (
@@ -12,13 +13,13 @@ const Haiti = () => {
       <div>
         <div className="imagesContainer">
           <div className="mobileContainer">
-            <img className="floatRight" id="mainImage" src={HaitiImage} />
+            <img id="mainImage" src={HaitiImage} />
           </div>
-          <h1>Haiti</h1>
+          <h1 className="mobileTextSize">Still In Need Of Our Help</h1>
           <div id="pageText">
             <p className="programText">What causes young children to bake and eat pies that are made of dirt? </p>
             <p className="programText">
-              In Haiti, the world's economic crisis is estimated to cause 22 more children to die PER HOUR in 2009 than
+              In Haiti, the world's economic crisis is estimated to cause 22 more children to die per hour in 2009 than
               in 2008. The number of children with malnutrition has doubled. Many fall asleep in totaled cars, dirty
               dumpsters, streets and any other place that they fall down on from exhaustion and starvation.{' '}
             </p>
@@ -28,7 +29,6 @@ const Haiti = () => {
               mud.
             </p>
           </div>
-          <h1>Haiti still desprately needs our help</h1>
           <img className="floatLeft margin-right" id="mainImage" src={Haiti2Image} />
           <div id="pageText">
             <p className="programText">
