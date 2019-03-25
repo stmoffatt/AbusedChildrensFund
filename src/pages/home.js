@@ -3,7 +3,16 @@ import 'bulma/css/bulma.css'
 import 'react-responsive-carousel/lib/styles/carousel.css'
 import 'react-responsive-carousel/lib/styles/main.css'
 import { onChange, onClickItem, onClickThumb } from 'react-responsive-carousel/lib/components/Carousel.js'
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 import './home.css'
+import Header1 from '../images/header1.jpg'
+import Header2 from '../images/header2.jpg'
+import Header3 from '../images/header3.jpg'
+import UgandaImage from '../images/uganda.jpeg'
+import Uganda2Image from '../images/uganda3.jpeg'
+import MexicoImage from '../images/mexico.jpeg'
+import PhilippinesImage from '../images/philippines1.jpg'
+
 var Carousel = require('react-responsive-carousel').Carousel
 
 class Home extends Component {
@@ -21,37 +30,13 @@ class Home extends Component {
           infiniteLoop={true}
         >
           <div>
-            <img
-              className="carouselImage"
-              src="https://cdn.audubon.org/cdn/farfuture/VaAekJa0h002XqSGU4cboQRRwALdbv-RH2nHcb4c-Ok/mtime:1497971335/sites/default/files/styles/hero_image/public/web_hummingbird-ruby-throated-male-perched-on-butterfly-weed-d-yl5t5153.jpg?itok=1L-8PI5p"
-            />
+            <img className="carouselImage" src={Header1} />
           </div>
           <div>
-            <img
-              className="carouselImage"
-              src="https://cdn.audubon.org/cdn/farfuture/HTsu2RV2jHvTOc-souYiyhk8N7P-ID63dcqeBl7hqE0/mtime:1497975973/sites/default/files/styles/hero_image/public/sfw_pigeon_ryanberkley.jpg?itok=ZU1l1W9v"
-            />
+            <img className="carouselImage" src={Header2} />
           </div>
           <div>
-            <img
-              className="carouselImage"
-              src="https://cdn.audubon.org/cdn/farfuture/I3LY23SocvdMRHkNU6azggFvXri0abo5LbKtiSzLIoA/mtime:1498041054/sites/default/files/styles/hero_image/public/web_28468608866_42796d8cca_o-2.jpg?itok=YDaMz-RD"
-            />
-          </div>
-          <div>
-            <img
-              className="carouselImage"
-              src="http://ny.audubon.org/sites/g/files/amh406/f/styles/hero_image/public/bobolink_in_flight_tim_lenz.jpg?itok=j5ZBAbWl"
-            />
-          </div>
-          <div>
-            <img
-              className="carouselImage"
-              src="http://nm.audubon.org/sites/g/files/amh686/f/styles/hero_image/public/photographer_with_cranes_flickr_creative_commons_john_fowler.jpg?itok=16pDkurC"
-            />
-          </div>
-          <div>
-            <img className="carouselImage" src="https://i.redd.it/f63udfw1n5101.jpg" />
+            <img className="carouselImage" src={Header3} />
           </div>
         </Carousel>
         <div className="container">
@@ -60,62 +45,57 @@ class Home extends Component {
             <div className="columns">
               <div className="column">
                 <div className="imageContainerLeft">
-                  <img
-                    className="image"
-                    src="https://stlucieaudubon.org/hartBeat/Images/2014/140130TricoloredHeron.jpg"
-                  />
+                  <img className="image" src={UgandaImage} />
                 </div>
                 <div className="descriptionLeft">
-                  <h1>First column</h1>
+                  <h1>Haiti</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu nisi imperdiet, euismod
-                    augue et, faucibus diam.
+                    Abused Children's Fund delivered around $500,00 worth of medical supplies, clothing, shoes and other
+                    emergency equipment to the desperate country of Haiti.
                   </p>
-                  <a>Learn More </a>
+                  <Link to="/haiti">Learn More </Link>
                 </div>
               </div>
               <div className="column">
                 <div className="imageContainerRight">
-                  <img className="image" src="https://farm3.staticflickr.com/2629/32129883953_eb089902e3_b.jpg" />
+                  <img className="image" src={PhilippinesImage} />
                 </div>
                 <div className="descriptionRight">
-                  <h1>Second column</h1>
+                  <h1>Philippines</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu nisi imperdiet, euismod
-                    augue et, faucibus diam.
+                    Through work with our partners, ACF has provided essential medicines, supplies, professional
+                    services and most importantly caring full-time staff and volunteers who work directly with poor
+                    children.
                   </p>
-                  <a>Learn More </a>
+                  <Link to="/philippines">Learn More </Link>
                 </div>
               </div>
             </div>
             <div className="columns">
               <div className="column">
                 <div className="imageContainerLeft">
-                  <img className="image" src="https://farm3.staticflickr.com/2629/32129883953_eb089902e3_b.jpg" />
+                  <img className="image" src={Uganda2Image} />
                 </div>
                 <div className="descriptionLeft">
-                  <h1>Third column</h1>
+                  <h1>Uganda</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu nisi imperdiet, euismod
-                    augue et, faucibus diam.
+                    Through SCM, ACF helps the disadvantaged youths through formal education or vocational training.
+                    They teach practical life skills to become self-sustaining productive members of society.
                   </p>
-                  <a>Learn More </a>
+                  <Link to="/uganda">Learn More </Link>
                 </div>
               </div>
               <div className="column">
                 <div className="imageContainerRight">
-                  <img
-                    className="image"
-                    src="https://stlucieaudubon.org/hartBeat/Images/2014/140130TricoloredHeron.jpg"
-                  />
+                  <img className="image" src={MexicoImage} />
                 </div>
                 <div className="descriptionRight">
-                  <h1>Fourth column</h1>
+                  <h1>Mexico</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu nisi imperdiet, euismod
-                    augue et, faucibus diam.
+                    Hundreds of abandoned children wander the streets of Mexico alone, not knowing where their next bite
+                    of food will come from. Hundreds of thousands of Mexican children are orphaned or abandoned.
                   </p>
-                  <a>Learn More </a>
+                  <Link to="/mexico">Learn More </Link>
                 </div>
               </div>
             </div>
@@ -123,7 +103,13 @@ class Home extends Component {
         </div>
         <div className="container">
           <div className="buttonContainer">
-            <a className="button is-black is-large is-fullwidth">Donate Today</a>
+            <a
+              href="https://www.givedirect.org/donate/?cid=11851"
+              target="_blank"
+              className="button is-black is-large is-fullwidth"
+            >
+              Donate Today
+            </a>
           </div>
         </div>
       </div>

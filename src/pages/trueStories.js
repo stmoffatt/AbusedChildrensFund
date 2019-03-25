@@ -96,7 +96,13 @@ class TrueStories extends Component {
           </div>
           <div className="container">
             <div className="buttonContainer">
-              <a className="button is-black is-large is-fullwidth">Donate Today</a>
+              <a
+                href="https://www.givedirect.org/donate/?cid=11851"
+                target="_blank"
+                className="button is-black is-large is-fullwidth"
+              >
+                Donate Today
+              </a>
             </div>
           </div>
         </div>

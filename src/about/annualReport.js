@@ -51,8 +51,8 @@ const annualReport = () => {
           </div>
         </div>
       </div>
-      <h4 style={{ display: 'inline', float: 'left' }}>Donations Received: $3,387,167 </h4>
-      <h4 style={{ display: 'inline', float: 'right' }}> Total Donations Spent: $3,363,366</h4>
+      <h4 className="donationsReceived">Donations Received: $3,387,167 </h4>
+      <h4 className="donationsSpent"> Total Donations Spent: $3,363,366</h4>
     </div>
   )
 }

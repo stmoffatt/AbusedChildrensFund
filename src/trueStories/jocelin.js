@@ -2,6 +2,7 @@ import React from 'react'
 import TrueStoriesNavigation from '../components/trueStoriesNavigation'
 import 'bulma/css/bulma.css'
 import './trueStories.css'
+import JocelinImage from '../images/jocelin.jpg'
 
 const jocelin = () => {
   return (
@@ -10,7 +11,7 @@ const jocelin = () => {
       <div className="trueStoriesContainer">
         <div className="trueStoriesImageContainer">
           <figure className="image is-square">
-            <img src="https://bulma.io/images/placeholders/480x480.png" />
+            <img src={JocelinImage} />
           </figure>
         </div>
         <div className="info">
@@ -46,7 +47,13 @@ const jocelin = () => {
         </div>
         <div className="container">
           <div className="buttonContainer">
-            <a className="button is-black is-large is-fullwidth">Donate Today</a>
+            <a
+              href="https://www.givedirect.org/donate/?cid=11851"
+              target="_blank"
+              className="button is-black is-large is-fullwidth"
+            >
+              Donate Today
+            </a>
           </div>
         </div>
       </div>

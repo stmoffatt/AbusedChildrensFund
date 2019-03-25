@@ -3,114 +3,134 @@ import 'bulma/css/bulma.css'
 import './header.css'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 
-document.addEventListener('DOMContentLoaded', () => {
-  // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0)
-
-  // Check if there are any navbar burgers
-  if ($navbarBurgers.length > 0) {
-    // Add a click event on each of them
-    $navbarBurgers.forEach(el => {
-      el.addEventListener('click', () => {
-        // Get the target from the "data-target" attribute
-        const target = el.dataset.target
-        const $target = document.getElementById(target)
-
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        el.classList.toggle('is-active')
-        $target.classList.toggle('is-active')
-      })
-    })
-  }
-})
-
 class Header extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      toggle: false,
+    }
+  }
   render() {
+    const handleClick = () => {
+      this.setState({ toggle: !this.state.toggle })
+    }
+    const handleItemsClick = () => {
+      this.setState({ toggle: false })
+    }
     return (
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <Link className="navbar-item" to="/">
+          <Link className="navbar-item navPrimary" to="/">
             Abused Children's Fund
           </Link>
-          <div role="button" className="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <div
+            onClick={handleClick}
+            role="button"
+            className={this.state.toggle ? 'navbar-burger is-active' : 'navbar-burger'}
+            data-target="navMenu"
+            aria-label="menu"
+            aria-expanded="false"
+          >
             <span aria-hidden="true" />
             <span aria-hidden="true" />
             <span aria-hidden="true" />
           </div>
         </div>
 
-        <div className="navbar-menu" id="navMenu">
+        <div className={this.state.toggle ? 'navbar-menu is-active' : 'navbar-menu'} id="navMenu">
           <div className="navbar-end">
             <div className="navbar-item has-dropdown is-hoverable">
-              <Link className="navbar-item" to="/about">
+              <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/about">
                 About
               </Link>
               <div className="navbar-dropdown is-boxed">
-                <Link className="navbar-item" to="/mission-statment">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/mission-statment">
                   Mission Statment
                 </Link>
-                <Link className="navbar-item" to="/where-we-serve">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/where-we-serve">
                   Where We Serve
                 </Link>
-                <Link className="navbar-item" to="/annual-report">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/annual-report">
                   Annual Report
                 </Link>
               </div>
             </div>
             <div className="navbar-item has-dropdown is-hoverable">
-              <Link className="navbar-item" to="/programs">
+              <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/haiti">
                 Programs
               </Link>
               <div className="navbar-dropdown is-boxed">
-                <Link className="navbar-item" to="/haiti">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/haiti">
                   Haiti
                 </Link>
-                <Link className="navbar-item" to="/philippines">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/philippines">
                   Philippines
                 </Link>
-                <Link className="navbar-item" to="/uganda">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/uganda">
                   Uganda
                 </Link>
-                <Link className="navbar-item" to="/mexico">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/mexico">
                   Mexico
                 </Link>
-                <Link className="navbar-item" to="/sexual-trafficing">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/sexual-trafficing">
                   Sexual Trafficing
                 </Link>
-                <Link className="navbar-item" to="/imagine">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/imagine">
                   Imagine
                 </Link>
               </div>
             </div>
             <div className="navbar-item has-dropdown is-hoverable">
-              <Link className="navbar-item" to="/true-stories">
+              <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/esmeralda-and-omar">
                 True Stories
               </Link>
               <div className="navbar-dropdown is-boxed">
-                <Link className="navbar-item" to="/esmeralda-and-omar">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/esmeralda-and-omar">
                   Esmeralda and Omar
                 </Link>
-                <Link className="navbar-item" to="/rolando">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/rolando">
                   Rolando
                 </Link>
-                <Link className="navbar-item" to="/jocelin">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/jocelin">
                   Jocelin
                 </Link>
-                <Link className="navbar-item" to="/lucia">
+                <Link onClick={handleItemsClick} className="navbar-item navSecondary" to="/lucia">
                   Lucia
                 </Link>
               </div>
             </div>
             <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-item">Support</a>
+              <a onClick={handleItemsClick} className="navbar-item navSecondary">
+                Support
+              </a>
               <div className="navbar-dropdown is-boxed">
-                <a className="navbar-item">Donate</a>
-                <a className="navbar-item">Fundraising</a>
-                <a className="navbar-item">Workplace Giving</a>
-                <a className="navbar-item">Contact</a>
+                <a
+                  onClick={handleItemsClick}
+                  href="https://www.givedirect.org/donate/?cid=11851"
+                  target="_blank"
+                  className="navbar-item navSecondary"
+                >
+                  Donate
+                </a>
+                <a onClick={handleItemsClick} className="navbar-item navSecondary">
+                  Fundraising
+                </a>
+                <a onClick={handleItemsClick} className="navbar-item navSecondary">
+                  Workplace Giving
+                </a>
+                <a onClick={handleItemsClick} className="navbar-item navSecondary">
+                  Contact
+                </a>
               </div>
             </div>
-            <a className="navbar-item">Donate</a>
+            <a
+              href="https://www.givedirect.org/donate/?cid=11851"
+              target="_blank"
+              onClick={handleItemsClick}
+              className="navbar-item navSecondary"
+            >
+              Donate
+            </a>
           </div>
         </div>
       </nav>

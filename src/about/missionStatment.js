@@ -1,10 +1,11 @@
 import React from 'react'
 import 'bulma/css/bulma.css'
+import './missionStatment.css'
 
 const MissionStatment = () => {
   return (
     <div className="aboutContainer">
-      <h1>Mission Statement</h1>
+      <h1 id="missionStatementMobile">Mission Statement</h1>
       <div>
         <p className="aboutText">
           As Christians we have come together to follow Christ's teaching of helping the most vulnerable children around
@@ -23,7 +24,13 @@ const MissionStatment = () => {
         </p>
       </div>
       <div className="buttonContainer">
-        <a className="button is-black is-large is-fullwidth">Donate Today</a>
+        <a
+          href="https://www.givedirect.org/donate/?cid=11851"
+          target="_blank"
+          className="button is-black is-large is-fullwidth"
+        >
+          Donate Today
+        </a>
       </div>
     </div>
   )

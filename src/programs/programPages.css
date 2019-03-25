@@ -23,3 +23,38 @@
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 767px) {
+  .mobileContainer {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+  }
+
+  .floatRight {
+    float: none;
+  }
+
+  .floatLeft {
+    float: none;
+  }
+  .floatLeft.margin-right {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+}
+.floatLeft.margin-right {
+  margin-right: 10px;
+}
+.programText {
+  margin-bottom: 10px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}

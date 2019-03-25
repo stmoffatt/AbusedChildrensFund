@@ -11,9 +11,37 @@
   margin: 10px;
 }
 
+.donationsReceived {
+  display: inline;
+  float: left;
+}
+
+.donationsSpent {
+  display: inline;
+  float: right;
+}
+
 @media screen and (max-width: 1087px) {
   .annualReportContainer {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .circleBox {
+    margin: auto;
+    display: block;
+  }
+
+  .donationsReceived {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+  .donationsSpent {
+    display: block;
+    text-align: center;
+    float: none;
   }
 }
 

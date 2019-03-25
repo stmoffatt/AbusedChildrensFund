@@ -5,7 +5,9 @@ import './whereWeServe.css'
 const WhereWeServe = () => {
   return (
     <div className="whereWeServeContainer">
-      <h1 id="headerChange">Where We Serve</h1>
+      <h1 id="headerChange" className="whereWeServeMobileSize">
+        Where We Serve
+      </h1>
       <div className="content">
         <div className="columns">
           <div className="column">
@@ -125,7 +127,13 @@ const WhereWeServe = () => {
 
       <div className="container">
         <div className="buttonContainer">
-          <a className="button is-black is-large is-fullwidth">Donate Today</a>
+          <a
+            href="https://www.givedirect.org/donate/?cid=11851"
+            target="_blank"
+            className="button is-black is-large is-fullwidth"
+          >
+            Donate Today
+          </a>
         </div>
       </div>
     </div>
