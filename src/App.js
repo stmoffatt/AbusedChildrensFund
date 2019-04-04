@@ -27,14 +27,12 @@ class App extends Component {
         <Header />
         <div className="App-content">
           <Route exact path="/" render={props => <Home />} />
-
           <Route exact path="/haiti" render={props => <Haiti />} />
           <Route exact path="/philippines" render={props => <Philippines />} />
           <Route exact path="/uganda" render={props => <Uganda />} />
           <Route exact path="/mexico" render={props => <Mexico />} />
           <Route exact path="/sexual-trafficing" render={props => <SexualTrafficing />} />
           <Route exact path="/imagine" render={props => <Imagine />} />
-
           <Route exact path="/esmeralda-and-omar" render={props => <EsmeraldaAndOmar />} />
           <Route exact path="/jocelin" render={props => <Jocelin />} />
           <Route exact path="/lucia" render={props => <Lucia />} />

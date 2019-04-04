@@ -25,12 +25,6 @@ class Support extends Component {
           <a href={MailForm} target="_blank">
             Mail Form
           </a>
-          <h4>Monthly Giving</h4>
-          <p>
-            Your donation dollars will go even further when you sign up for the monthly giving program. You make a
-            monthly commitment for a period of time through your checking account or credit card, providing us with
-            authorization to process your gift automatically.{' '}
-          </p>
           <h4>Special Occasion Gifts</h4>
           <p>
             Commemorate an occasion with a life-saving gift that is guaranteed to make a difference to a needy child. A
@@ -47,6 +41,26 @@ class Support extends Component {
           <a href={MemorialForm} target="_blank">
             Memorial Form
           </a>
+          <h4>Monthly Giving</h4>
+          <p>
+            Your donation dollars will go even further when you sign up for the monthly giving program. You make a
+            monthly commitment for a period of time through your checking account or credit card, providing us with
+            authorization to process your gift automatically.{' '}
+          </p>
+          <h4>Combined Federal Campaign</h4>
+          <p>
+            Abused Children Fund (ACF) participates in the Combined Federal Campaign (CFC) as a member of Independent
+            Charities of America. We want to thank the individuals who have given to ACF through their workplace.
+            Donations from the Combined Federal Campaign, State employees, private sector and other workplace giving
+            programs allow ACF to continue to make a difference in the lives of desperate abused children.{' '}
+          </p>
+          <h4>Estate Gifting</h4>
+          <p>
+            Name Abused Children’s Fund as a beneficiary to your will and estate and continue your legacy of providing
+            God’s love and compassion for years and generations to come! Simply mention to your estate planner that you
+            wish to name Abused Children’s Fund as a beneficiary to your will. Please contact us for more information
+            about Planned Giving and how you can make a lasting difference for good in the world.{' '}
+          </p>
         </div>
         <div className="buttonContainer">
           <a
