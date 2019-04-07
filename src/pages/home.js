@@ -3,12 +3,12 @@ import 'bulma/css/bulma.css'
 import 'react-responsive-carousel/lib/styles/carousel.css'
 import 'react-responsive-carousel/lib/styles/main.css'
 import { onChange, onClickItem, onClickThumb } from 'react-responsive-carousel/lib/components/Carousel.js'
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './home.css'
 import Header1 from '../images/header1.jpg'
 import Header2 from '../images/header2.jpg'
 import Header3 from '../images/header3.jpg'
-import UgandaImage from '../images/uganda.jpeg'
+import HaitiImage from '../images/Haiti3.jpeg'
 import Uganda2Image from '../images/uganda3.jpeg'
 import MexicoImage from '../images/mexico.jpeg'
 import PhilippinesImage from '../images/philippines1.jpg'
@@ -30,13 +30,13 @@ class Home extends Component {
           infiniteLoop={true}
         >
           <div>
-            <img className="carouselImage" src={Header1} />
+            <img className="carouselImage" src={Header1} alt="Header1" />
           </div>
           <div>
-            <img className="carouselImage" src={Header2} />
+            <img className="carouselImage" src={Header2} alt="Header2" />
           </div>
           <div>
-            <img className="carouselImage" src={Header3} />
+            <img className="carouselImage" src={Header3} alt="Header3" />
           </div>
         </Carousel>
         <div className="container">
@@ -45,7 +45,7 @@ class Home extends Component {
             <div className="columns">
               <div className="column">
                 <div className="imageContainerLeft">
-                  <img className="image" src={UgandaImage} />
+                  <img className="image" src={HaitiImage} alt="UgandaImage" />
                 </div>
                 <div className="descriptionLeft">
                   <h1>Haiti</h1>
@@ -58,7 +58,7 @@ class Home extends Component {
               </div>
               <div className="column">
                 <div className="imageContainerRight">
-                  <img className="image" src={PhilippinesImage} />
+                  <img className="image" src={PhilippinesImage} alt="PhilippinesImage" />
                 </div>
                 <div className="descriptionRight">
                   <h1>Philippines</h1>
@@ -74,7 +74,7 @@ class Home extends Component {
             <div className="columns">
               <div className="column">
                 <div className="imageContainerLeft">
-                  <img className="image" src={Uganda2Image} />
+                  <img className="image" src={Uganda2Image} alt="Uganda2Image" />
                 </div>
                 <div className="descriptionLeft">
                   <h1>Uganda</h1>
@@ -87,7 +87,7 @@ class Home extends Component {
               </div>
               <div className="column">
                 <div className="imageContainerRight">
-                  <img className="image" src={MexicoImage} />
+                  <img className="image" src={MexicoImage} alt="MexicoImage" />
                 </div>
                 <div className="descriptionRight">
                   <h1>Mexico</h1>
@@ -106,6 +106,7 @@ class Home extends Component {
             <a
               href="https://www.givedirect.org/donate/?cid=11851"
               target="_blank"
+              rel="noopener noreferrer"
               className="button is-black is-large is-fullwidth"
             >
               Donate Today

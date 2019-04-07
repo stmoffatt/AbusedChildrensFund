@@ -23,7 +23,7 @@ const menu = [
 ]
 
 function header(headerText) {
-  if (headerText == 'esmeralda-and-omar') {
+  if (headerText === 'esmeralda-and-omar') {
     return 'Esmeralda and Omar'
   } else {
     return headerText.charAt(0).toUpperCase() + headerText.slice(1)

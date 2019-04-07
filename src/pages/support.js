@@ -22,7 +22,7 @@ class Support extends Component {
           <p>Please download the form. After you've completed the information, mail to: </p>
           <p>Abused Children's Fund 1535</p>
           <p>Farmers Lane #200 Santa Rosa, CA 95405</p>
-          <a href={MailForm} target="_blank">
+          <a href={MailForm} target="_blank" rel="noopener noreferrer">
             Mail Form
           </a>
           <h4>Special Occasion Gifts</h4>
@@ -30,7 +30,7 @@ class Support extends Component {
             Commemorate an occasion with a life-saving gift that is guaranteed to make a difference to a needy child. A
             special occasion gift donation is a wonderful solution for any gift-giving opportunity.{' '}
           </p>
-          <a href={SpecialForm} target="_blank">
+          <a href={SpecialForm} target="_blank" rel="noopener noreferrer">
             Special Occasion Form
           </a>
           <h4>Memorial Gifts</h4>
@@ -38,7 +38,7 @@ class Support extends Component {
             Dedicate a donation in the memory of a loved one. The gift of life will continue on by helping others in
             need.
           </p>
-          <a href={MemorialForm} target="_blank">
+          <a href={MemorialForm} target="_blank" rel="noopener noreferrer">
             Memorial Form
           </a>
           <h4>Monthly Giving</h4>
@@ -66,6 +66,7 @@ class Support extends Component {
           <a
             href="https://www.givedirect.org/donate/?cid=11851"
             target="_blank"
+            rel="noopener noreferrer"
             className="button is-black is-large is-fullwidth"
           >
             Donate Today

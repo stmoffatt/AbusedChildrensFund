@@ -18,7 +18,7 @@ import AnnualReport from './about/annualReport'
 import WhereWeServe from './about/whereWeServe'
 import Support from './pages/support'
 import './App.css'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 class App extends Component {
   render() {

@@ -1,6 +1,13 @@
 import React from 'react'
 import 'bulma/css/bulma.css'
 import './whereWeServe.css'
+import PhilippinesMap from '../images/philippinesMap.png'
+import MexicoMap from '../images/mexicoMap.png'
+import UsaMap from '../images/usaMap.png'
+import JamaicaMap from '../images/jamaicaMap.png'
+import BelizeMap from '../images/belizeMap.png'
+import UgandaMap from '../images/ugandaMap.png'
+import SafricaMap from '../images/safricaMap.png'
 
 const WhereWeServe = () => {
   return (
@@ -14,11 +21,7 @@ const WhereWeServe = () => {
             <div className="descriptionLeft">
               <h1>Philippines</h1>
               <div id="philippinesImageContainer">
-                <img
-                  id="philippinesImage"
-                  src="http://www.abusedchildrensfund.org/images/annual-report/philippines.png"
-                  alt="Philippines"
-                />
+                <img id="philippinesImage" src={PhilippinesMap} alt="Philippines" />
               </div>
               <p>
                 This year our team, led by our Director of Operations Campbell Kelley, went on a relief mission to our
@@ -36,11 +39,7 @@ const WhereWeServe = () => {
             <div className="descriptionRight">
               <h1>Mexico</h1>
               <div id="mexicoImageContainer">
-                <img
-                  id="mexicoImage"
-                  src="http://www.abusedchildrensfund.org/images/annual-report/mexico.png"
-                  alt="Mexico"
-                />
+                <img id="mexicoImage" src={MexicoMap} alt="Mexico" />
               </div>
               <p>
                 “The work and help of Abused Children’s Fund has helped save and rescue the lives of many children here
@@ -57,11 +56,7 @@ const WhereWeServe = () => {
             <div className="descriptionLeft">
               <h1>United States</h1>
               <div id="unitedImageContainer">
-                <img
-                  id="unitedStatesImage"
-                  src="http://www.abusedchildrensfund.org/images/annual-report/usa.png"
-                  alt="United States"
-                />
+                <img id="unitedStatesImage" src={UsaMap} alt="United States" />
               </div>
               <p>
                 In the U.S. with your support, we succeeded with rescuing children from dangerous living situations here
@@ -75,11 +70,7 @@ const WhereWeServe = () => {
             <div className="descriptionRight">
               <h1>Jamaica</h1>
               <div id="jamaicaImageContainer">
-                <img
-                  id="jamaicaImage"
-                  src="http://www.abusedchildrensfund.org/images/annual-report/jamaica.png"
-                  alt="Jamaica"
-                />
+                <img id="jamaicaImage" src={JamaicaMap} alt="Jamaica" />
               </div>
               <p>
                 In 2013 ACF began supporting the mission of several orphanages in Jamaica to reach out to abused
@@ -96,11 +87,7 @@ const WhereWeServe = () => {
             <div className="descriptionLeft">
               <h1>Belize</h1>
               <div id="belizeImageContainer">
-                <img
-                  id="belizeImage"
-                  src="http://www.abusedchildrensfund.org/images/annual-report/belize.png"
-                  alt="Belize"
-                />
+                <img id="belizeImage" src={BelizeMap} alt="Belize" />
               </div>
               <p>
                 ACF continues to support our partners in Belize who run a Christian academy for children in a rural
@@ -113,11 +100,7 @@ const WhereWeServe = () => {
             <div className="descriptionRight">
               <h1>Uganda</h1>
               <div id="ugandaImageContainer">
-                <img
-                  id="ugandaImage"
-                  src="http://www.abusedchildrensfund.org/images/annual-report/uganda.png"
-                  alt="Uganda"
-                />
+                <img id="ugandaImage" src={UgandaMap} alt="Uganda" />
               </div>
               <p>
                 With your priceless support we continued working with our partners to help rescue and feed children
@@ -132,11 +115,7 @@ const WhereWeServe = () => {
             <div className="descriptionLeft">
               <h1>South Africa</h1>
               <div id="southImageContainer">
-                <img
-                  id="southAfricaImage"
-                  src="http://www.abusedchildrensfund.org/images/annual-report/safrica.png"
-                  alt="South Africa"
-                />
+                <img id="southAfricaImage" src={SafricaMap} alt="South Africa" />
               </div>
               <p>
                 We’ve continued to help abused and vulnerable children living in dangerous “townships” receive therapy,
@@ -155,6 +134,7 @@ const WhereWeServe = () => {
           <a
             href="https://www.givedirect.org/donate/?cid=11851"
             target="_blank"
+            rel="noopener noreferrer"
             className="button is-black is-large is-fullwidth"
           >
             Donate Today

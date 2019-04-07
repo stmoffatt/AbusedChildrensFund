@@ -31,7 +31,7 @@ const menu = [
 ]
 
 function header(headerText) {
-  if (headerText == 'sexual-trafficing') {
+  if (headerText === 'sexual-trafficing') {
     return 'Sexual Trafficing'
   } else {
     return headerText.charAt(0).toUpperCase() + headerText.slice(1)

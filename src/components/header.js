@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import 'bulma/css/bulma.css'
 import './header.css'
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class Header extends Component {
       this.setState({ toggle: false })
     }
     return (
-      <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <Link onClick={handleItemsClick} className="navbar-item navPrimary" to="/">
             Abused Children's Fund
@@ -108,6 +108,7 @@ class Header extends Component {
                   onClick={handleItemsClick}
                   href="https://www.givedirect.org/donate/?cid=11851"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="navbar-item navSecondary"
                 >
                   Donate
@@ -127,6 +128,7 @@ class Header extends Component {
               <a
                 href="https://www.givedirect.org/donate/?cid=11851"
                 target="_blank"
+                rel="noopener noreferrer"
                 onClick={handleItemsClick}
                 className="navbar-item navSecondary"
               >
@@ -135,7 +137,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
-      </nav>
+      </div>
     )
   }
 }

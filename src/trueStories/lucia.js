@@ -39,6 +39,7 @@ const lucia = () => {
             <a
               href="https://www.givedirect.org/donate/?cid=11851"
               target="_blank"
+              rel="noopener noreferrer"
               className="button is-black is-large is-fullwidth"
             >
               Donate Today

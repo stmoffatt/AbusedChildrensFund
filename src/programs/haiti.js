@@ -4,7 +4,6 @@ import 'bulma/css/bulma.css'
 import './programPages.css'
 import HaitiImage from '../images/Haiti1.jpg'
 import Haiti2Image from '../images/haiti2.jpg'
-import f from '../images/donationform.pdf'
 
 const Haiti = () => {
   return (
@@ -64,6 +63,7 @@ const Haiti = () => {
           <a
             href="https://www.givedirect.org/donate/?cid=11851"
             target="_blank"
+            rel="noopener noreferrer"
             className="button is-black is-large is-fullwidth"
           >
             Donate Today
